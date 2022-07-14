@@ -27,6 +27,13 @@ public class CalculatorTest {
                 , "Número 1 e número 2 são obrigatórios.");
     }
 
+	  @Test
+    void subTest() {
+        assertEquals(0.0,calculator.sub(2.0,2.0));
+    }
+	
+	
+	
 	@Test
 	void divideTest() {
 		assertEquals(-2.0, calculator.divide(2.0, 4.0));
