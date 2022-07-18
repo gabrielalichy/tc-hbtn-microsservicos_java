@@ -4,6 +4,8 @@ import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 
+
+@Repository
 public class ProductRepository {
 
 	private List<Product> list = new ArrayList<Product>();
